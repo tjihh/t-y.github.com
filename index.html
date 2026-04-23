@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pc</title>
+<link rel="icon" type="image/png" href="images/onglet_logo.png">
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"crossorigin="anonymous">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<button id="themeBtn" class="theme-btn">
+    <svg id="iconMoon" class="icon" stroke="var(--secondary)">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+
+    <svg id="iconSun" class="icon" stroke="var(--primary)" style="display:none">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+</button>
+<input type="checkbox" id="close">
+<label for="close" class="btn-show-nav" aria-label="Ouvrir le menu">
+    <i class="bi bi-list"></i>
+</label>
+
+<nav>
+    <label for="close" class="btn-hide-nav">
+        <i class="bi bi-x-circle"></i>
+    </label>
+
+    <a href="index.html" class="nav-brand"><img src="images/Logo_T-Y.png"><strong>T & Y PC</strong></a>
+
+    <h3>Menu</h3>
+    <ul class="ul1">
+        <li><a href="index.html"><i class="bx bx-home-alt"></i>Maison</a></li>
+        <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i>Le choix CPU/GPU</a></li>
+        <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i>Les composants</a></li>
+        <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i>conseils configuration</a></li>
+        <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i>Qui sommes‑nous ?</a></li>
+    </ul>
+
+    <h3>Follow us</h3>
+    <ul>
+        <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+    </ul>
+</nav>
+<h1 class="titre1"><strong>Qu'est-ce qu'un PC ?</strong></h1>
+<section class="hero">
+    <h2>Vous en avez marre de rien comprendre au monde des PC ?
+        <br>On est là pour vous 🫵.</h2>
+</section>
+<section class="intro-pc">
+<div class="intro-text">
+<h2>Qu'est-ce qu'un PC ?</h2>
+<p> Un PC, ou « ordinateur personnel », est une machine conçue pour exécuter des programmes, traiter des informations et aider l’utilisateur dans une multitude de tâches.
+Il est composé de plusieurs éléments essentiels comme le processeur, la mémoire RAM, le stockage, la carte graphique et bien d’autres composants qui travaillent ensemble pour faire fonctionner le système.</p>
+<h2>À quoi sert un PC ?</h2>
+<p> Un PC peut servir à presque tout : travailler, étudier, jouer, créer du contenu, naviguer sur Internet, communiquer, programmer, monter des vidéos, gérer des documents, ou encore apprendre.
+C’est un outil polyvalent qui s’adapte aux besoins de chacun, que ce soit pour un usage personnel, professionnel ou créatif.</p>
+</div>
+<div class="intro-image">
+    <div class="intro-image">
+    <div class="product-card">
+    <img src="images/pc_presentation.jpg"
+         class="pc-item"
+         data-name="PC Gamer Supreme"
+         data-price="1200-4000 €"
+         data-desc="Un PC haut de gamme équipé des dernières technologies.entierement personalisable,assemblée par notre équipe de professionelle"
+         data-img="images/pc_presentation.jpg">
+   
+</div> 
+</section>
+<section class="cards">
+    <h3 class="cards-title">Découvrez les composants :</h3>
+    <ul class="cards-list">
+    <li><a href="Pc_Cpu-Gpu.html#cpu">🧠 Le processeur (CPU)</a></li>
+    <li><a href="Pc_Cpu-Gpu.html#gpu">🎮 La carte graphique (GPU)</a></li>
+    <li><a href="Pc_Compo2.html#Ram">⚡ La RAM</a></li>
+    <li><a href="Pc_Compo2.html#SSD">💾 Le stockage (SSD)</a></li>
+    <li><a href="Pc_Compo2.html#carte_mere">🔌 La carte mère</a></li>
+    <li><a href="Pc_Compo2.html#alim">🔋 L'alimentation</a></li>
+    <li><a href="Pc_Compo2.html#watercooling">❄️ Le refroidissement</a></li>
+    <li><a href="Pc_Compo2.html#Boitier">🖥️ Le boîtier</a></li>
+</ul>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="index.html"><i class="bx bx-home-alt"></i>Maison</a></li>
+                <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i>Choix CPU / GPU</a></li>
+                <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i>Les composants</a></li>
+                <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i>conseils configuration</a></li>
+                <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i>Qui sommes‑nous ?</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Réseaux</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+            </ul>
+        </div>
+
+      <div class="footer-section">
+    <h3>T & Y PC</h3>
+    <p>Guides, conseils et<br> astuces pour comprendre<br>le monde du PC.</p>
+    <img src="images/Logo_T-Y.png" class="footer-logo">
+</div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 T & Y PC — Tous droits réservés</p>
+    </div>
+</footer>
+<div id="pcModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close-modal">&times;</span>
+
+        <img id="modalImg" src="" alt="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalPrice"></p>
+        <p id="modalDesc"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>

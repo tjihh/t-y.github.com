@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pc</title>
+<link href="style3.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/onglet_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"crossorigin="anonymous">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<button id="themeBtn" class="theme-btn">
+    <svg id="iconMoon" class="icon" stroke="var(--secondary)">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+
+    <svg id="iconSun" class="icon" stroke="var(--primary)" style="display:none">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+</button>
+<input type="checkbox" id="close">
+<label for="close" class="btn-show-nav" aria-label="Ouvrir le menu">
+    <i class="bi bi-list"></i>
+</label>
+<nav>
+    <label for="close" class="btn-hide-nav">
+        <i class="bi bi-x-circle"></i>
+    </label>
+
+    <a href="Pc.html" class="nav-brand"><img src="images/Logo_T-Y.png"><strong>T & Y PC</strong></a>
+
+    <h3>Menu</h3>
+    <ul class="ul1">
+        <li><a href="Pc.html"><i class="bx bx-home-alt"></i> Maison</a></li>
+        <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i> Le choix CPU/GPU</a></li>
+        <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i> Les composants</a></li>
+        <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i> Meilleures ventes</a></li>
+        <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i> Qui sommes‑nous ?</a></li>
+    </ul>
+
+    <h3>Follow us</h3>
+    <ul>
+        <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+    </ul>
+</nav>
+    <header>
+    <h1 class="titre1"><strong>les composants d'un pc</strong></h1>
+    </header>
+<div class="wrapper">
+    <div class="image-container" id="carte_mere">
+        <img src="images/carte-mere.png" alt="Une carte mere">
+    </div>
+    <div class="intro">
+        <h2>
+            La carte mère
+        </h2>
+        <p>
+            Une carte mère est une plaque électronique qui occupe le fond du boîtier,elle peut etre de taille et couleurs differente.<br>
+            C'est le système nerveux du PC.Elle ne calcule rien d'elle-même, mais elle connecte tous les composants entre eux.<br>
+            Elle définit aussi l'évolutivité de votre PC (nombre de ports USB, quantité de mémoire vive acceptée, etc.).
+        </p>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="image-container" id="Ram">
+        <img src="images/ddr5.png" alt="2 barrettes de ram">
+    </div>
+    <div class="intro">
+        <h2>
+            La ram
+        </h2>
+        <p>
+          La ram c'est une ou plusieurs barrettes de taille ou de couleur differente.C'est la mémoire la plus rapide apres s'elle du cpu.<br>
+          elle stocke temporairement les données dont le processeur a besoin immédiatement pour fonctionner rapidement.<br>
+          Sans assez de RAM, votre PC "rame" car il doit aller chercher les informations sur le stockage (SSD) plus lent.
+        </p>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="image-container" id="SSD">
+        <img src="images/SSD_samsung.png" alt="un ssd">
+    </div>
+    <div class="intro">
+        <h2>
+            Le stockage (ssd)
+        </h2>
+        <p>
+            le stockage existe sous plusieurs forme HDD, SSD NVMe et SSD SATA, et plusieurs forme M.2, 2,5 et Externe.<br>
+            Le ssd est le placard où sont rangés vos jeux, vos photos et votre système d'exploitation.<br>
+            Un bon SSD permet d'allumer l'ordinateur en quelques secondes et de supprimer quasiment les temps de chargement dans les jeux ou autres.
+        </p>
+    </div>
+</div>
+<div class="wrapper">
+          <div class="image-container" id="watercooling">
+        <img src="images/watercooling.png" alt="un watercooling">
+    </div>
+    <div class="intro">
+        <h2>
+            Le Refroidissements
+        </h2>
+        <p>
+            Il existe 2 types de refroidissements: un ventirad,un ventilateur avec un radiateur ou Watercooling (AIO),un radiateur et une pompe.<br>
+            Le Refroidissements sert a maintenir le CPU dans une plage de température optimale pour éviter les pannes ou/et l'usure prématurée.<br>
+            Le système de refroidissement évacue cette chaleur pour éviter que le PC ne s'éteigne par sécurité ou que les performances ne chutent.
+        </p>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="image-container" id="alim">
+        <img src="images/corsair_alim.png" alt="Une alimentation">
+    </div>
+    <div class="intro">
+        <h2>
+            L'Alimentation
+        </h2>
+        <p>
+        L'alimentation est le bloc qui convertit le courant alternatif de ta prise murale en courant continu utilisable par les pièces électroniques.<br>
+        L'alimentation sert à fournir une énergie stable et sécurisée à chaque composant (CPU, carte graphique, carte mère).<br>
+        Elle protège également le système contre les surtensions ou les courts-circuits.<br>
+        Une bonne alimentation garantit que le PC ne s'éteigne pas brusquement lors d'un effort intense, préservant ainsi la durée de vie de ton matériel.
+        </p>
+    </div>
+</div>
+<div class="wrapper" >
+    <div class="image-container" id="Boitier">
+        <img src="images/boitier.png" alt="Un boitier">
+    </div>
+    <div class="intro">
+        <h2>
+            Le boitier
+        </h2>
+        <p>
+        Le boîtier est essentielle pour de bonnes temperature il accueille tous les composants de l'ordinateur.Il en existe de plusieurs forme et couleur.
+        Le boîtier sert à protéger les composants internes contre la poussière et les chocs, tout en organisant le flux d'air pour optimiser le refroidissement.
+        Il permet aussi de réduire les nuisances sonores et d'offrir une connectique accessible en façade (ports USB, prises jack) pour faciliter l'utilisation quotidienne du PC.  
+        </p>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="Pc.html"><i class="bx bx-home-alt"></i> Maison</a></li>
+                <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i> Choix CPU / GPU</a></li>
+                <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i> Les composants</a></li>
+                <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i> Meilleures ventes</a></li>
+                <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i> Qui sommes‑nous ?</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Réseaux</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+            </ul>
+        </div>
+
+      <div class="footer-section">
+    <h3>T & Y PC</h3>
+    <p>Guides, conseils et<br> astuces pour comprendre<br>le monde du PC.</p>
+    <img src="images/Logo_T-Y.png" class="footer-logo">
+</div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 T & Y PC — Tous droits réservés</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>

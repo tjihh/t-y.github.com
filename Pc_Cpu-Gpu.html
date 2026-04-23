@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pc</title>
+<link href="style2.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/onglet_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"crossorigin="anonymous">
+<link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<button id="themeBtn" class="theme-btn">
+    <svg id="iconMoon" class="icon" stroke="var(--secondary)">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+
+    <svg id="iconSun" class="icon" stroke="var(--primary)" style="display:none">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+</button>
+<input type="checkbox" id="close">
+<label for="close" class="btn-show-nav" aria-label="Ouvrir le menu">
+    <i class="bi bi-list"></i>
+</label>
+
+<nav>
+    <label for="close" class="btn-hide-nav">
+        <i class="bi bi-x-circle"></i>
+    </label>
+
+    <a href="Pc.html" class="nav-brand"><img src="images/Logo_T-Y.png"><strong>T & Y PC</strong></a>
+
+    <h3>Menu</h3>
+    <ul class="ul1">
+        <li><a href="Pc.html"><i class="bx bx-home-alt"></i> Maison</a></li>
+        <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i> Le choix CPU/GPU</a></li>
+        <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i> Les composants</a></li>
+        <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i> Meilleures ventes</a></li>
+        <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i> Qui sommes‑nous ?</a></li>
+    </ul>
+
+    <h3>Follow us</h3>
+    <ul>
+        <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+    </ul>
+</nav>
+<h1 class="titre1">Comment choisir son processeur et sa carte graphique</h1>
+<section class="intro-pc">
+    <div class="intro-text">
+        <h2>Bien choisir son processeur (CPU) et sa carte graphique (GPU)</h2>
+
+        <p>
+            Le choix du processeur et de la carte graphique est essentiel pour obtenir un PC performant et adapté à vos besoins. 
+            Le CPU agit comme le cerveau de votre ordinateur : il gère les calculs, la réactivité et la fluidité générale. 
+            Le GPU, quant à lui, est responsable de l’affichage, du rendu 3D, des jeux vidéo et du montage vidéo.
+        </p>
+
+        <h3 id="cpu">🧠 Comment choisir son processeur (CPU)</h3>
+        <p>
+            Pour sélectionner un processeur adapté, plusieurs critères doivent être pris en compte :
+        </p>
+        <ul>
+            <li><strong>L’usage :</strong> bureautique, gaming, montage vidéo, 3D…</li>
+            <li><strong>Le nombre de cœurs :</strong> plus il y en a, plus le multitâche est fluide.</li>
+            <li><strong>La fréquence (GHz) :</strong> importante pour les jeux et les tâches rapides.</li>
+            <li><strong>L’architecture :</strong> les générations récentes sont plus efficaces et consomment moins.</li>
+        </ul>
+
+        <h3 id="gpu">🎮 Comment choisir sa carte graphique (GPU)</h3>
+        <p>
+            Le GPU est le composant le plus important pour le jeu et la création visuelle. Voici les critères essentiels :
+        </p>
+        <ul>
+            <li><strong>La résolution visée :</strong> 1080p, 1440p ou 4K.</li>
+            <li><strong>La VRAM :</strong> 6 à 8 Go pour jouer, 12 à 24 Go pour créer.</li>
+            <li><strong>Les technologies :</strong> Ray Tracing, DLSS, FSR…</li>
+            <li><strong>La consommation :</strong> vérifier la compatibilité avec votre alimentation.</li>
+        </ul>
+
+        <h3>⚖️ Trouver le bon équilibre</h3>
+        <p>
+            Un PC performant repose sur un équilibre entre CPU et GPU.  
+            Un processeur trop faible peut brider une carte graphique puissante (bottleneck), 
+            tandis qu’un GPU trop limité empêchera d’exploiter pleinement un excellent processeur.
+        </p>
+    </div>
+</section>
+
+<section class="cards">
+    <h2 class="cards-title">Les marques de CPU et GPU : forces et faiblesses</h2>
+
+    <h3>🔵 Intel (CPU)</h3>
+    <div class="intro-pc">
+        <div class="intro-text">
+            <p>
+                Intel est l’un des leaders historiques du marché.  
+                Ses processeurs sont réputés pour leurs excellentes performances par cœur, 
+                ce qui les rend très efficaces en gaming.
+            </p>
+            <ul>
+                <li><strong>Points forts :</strong> très bon en jeux, stabilité, chauffe maîtrisée.</li>
+                <li><strong>Points faibles :</strong> prix parfois élevés, consommation plus importante sur certaines générations.</li>
+            </ul>
+        </div>
+        <div class="intro-image">
+            <img src="images/CPU-Intel.png" alt="Image d'un CPU">
+        </div>
+    </div>
+
+    <h3>🟠 AMD Ryzen (CPU)</h3>
+    <div class="intro-pc">
+        <div class="intro-text">
+            <p>
+                AMD a révolutionné le marché avec ses processeurs Ryzen, 
+                offrant un excellent rapport performance/prix et de très bonnes performances en multitâche.
+            </p>
+            <ul>
+                <li><strong>Points forts :</strong> idéal pour montage vidéo/streaming, prix attractifs, efficacité énergétique.</li>
+                <li><strong>Points faibles :</strong> légèrement moins performant en gaming sur certaines générations.</li>
+            </ul>
+        </div>
+        <div class="intro-image">
+            <img src="images/CPU-AMD.jpg" alt="Image d'un CPU">
+        </div>
+    </div>
+
+    <h3>🟩 NVIDIA (GPU)</h3>
+    <div class="intro-pc">
+        <div class="intro-text">
+            <p>
+                NVIDIA domine le marché des cartes graphiques grâce à ses technologies avancées 
+                comme le Ray Tracing et le DLSS, qui améliorent nettement les performances en jeu.
+            </p>
+            <ul>
+                <li><strong>Points forts :</strong> meilleur Ray Tracing, DLSS très efficace, pilotes stables.</li>
+                <li><strong>Points faibles :</strong> prix élevés, modèles haut de gamme coûteux.</li>
+            </ul>
+        </div>
+        <div class="intro-image">
+            <img src="images/GPU-Nvidia.png" alt="Image d'un GPU">
+        </div>
+    </div>
+
+    <h3>🔴 AMD Radeon (GPU)</h3>
+    <div class="intro-pc">
+        <div class="intro-text">
+            <p>
+                Les cartes graphiques Radeon offrent d’excellentes performances en rasterisation 
+                (performances brutes sans effets avancés) et un très bon rapport qualité/prix.
+            </p>
+            <ul>
+                <li><strong>Points forts :</strong> prix attractifs, très bon en 1080p/1440p, consommation raisonnable.</li>
+                <li><strong>Points faibles :</strong> Ray Tracing moins performant que NVIDIA.</li>
+            </ul>
+        </div>
+        <div class="intro-image">
+            <img src="images/GPU-AMD.png" alt="Image d'un GPU">
+        </div>
+    </div>
+
+    <h3>🔵 Intel Arc (GPU)</h3>
+    <div class="intro-pc">
+        <div class="intro-text">
+            <p>
+                Intel est un nouvel acteur dans le domaine des cartes graphiques.  
+                Les modèles Arc offrent un bon rapport qualité/prix, surtout pour les créateurs de contenu.
+            </p>
+            <ul>
+                <li><strong>Points forts :</strong> prix bas, bonnes performances en encodage vidéo.</li>
+                <li><strong>Points faibles :</strong> pilotes encore jeunes, performances variables selon les jeux.</li>
+            </ul>
+        </div>
+        <div class="intro-image">
+            <img src="images/GPU-Intel.jpg" alt="Image d'un GPU">
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="Pc.html"><i class="bx bx-home-alt"></i> Maison</a></li>
+                <li><a href="Pc_Cpu-Gpu.html"><i class="bi bi-gpu-card"></i> Choix CPU / GPU</a></li>
+                <li><a href="Pc_Compo2.html"><i class="bi bi-motherboard"></i> Les composants</a></li>
+                <li><a href="Pc_vente.html"><i class="bi bi-cart4"></i> Meilleures ventes</a></li>
+                <li><a href="Pc_Qui_Somme_Nous.html"><i class="bi bi-telephone-fill"></i> Qui sommes‑nous ?</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Réseaux</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/t_y.pc/"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@trystan_pc"><i class="bi bi-tiktok"></i> TikTok</a></li>
+            </ul>
+        </div>
+
+      <div class="footer-section">
+    <h3>T & Y PC</h3>
+    <p>Guides, conseils et<br> astuces pour comprendre<br>le monde du PC.</p>
+    <img src="images/Logo_T-Y.png" class="footer-logo">
+</div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 T & Y PC — Tous droits réservés</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
